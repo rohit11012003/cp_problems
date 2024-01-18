@@ -1,0 +1,13 @@
+// gcd of two numbers 
+
+gcd(int a, int b)
+{
+if(b==0) return a;
+else{
+gcd(b,a%b);
+}
+
+}
+
+//learn left smaller and right samller
+
